@@ -217,6 +217,7 @@ a#logo:hover {
 
 .post:target .content {
 	color: #000000;
+	overflow:hidden;
 }
 
 .post:target h3 a {

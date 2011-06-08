@@ -184,6 +184,7 @@ a#logo:hover {
 	float: left;
 	clear: both;
 	width: 940px;
+	margin-bottom: 5px;
 }
 
 .forabg {
