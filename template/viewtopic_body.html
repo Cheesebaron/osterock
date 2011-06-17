@@ -52,8 +52,17 @@
 	<!-- ENDIF -->
 	</div>
 
+	<!-- IF not S_IS_BOT -->
+	<ul class="linklist" style="display:inline;">
+        	<!-- IF S_USER_LOGGED_IN -->
+	        <li class="leftside"><a href="{U_SEARCH_ACTIVE_TOPICS}">{L_SEARCH_ACTIVE_TOPICS}</a></li>
+        	<!-- ENDIF -->
+	</ul>
+	<!-- ENDIF -->
+
+
 	<!-- IF PAGINATION or TOTAL_POSTS -->
-		<div class="pagination">
+		<div class="pagination" style="display:inline;">
 			<!-- IF U_VIEW_UNREAD_POST and not S_IS_BOT --><a href="{U_VIEW_UNREAD_POST}">{L_VIEW_UNREAD_POST}</a> &bull; <!-- ENDIF -->{TOTAL_POSTS}
 			<!-- IF PAGE_NUMBER --><!-- IF PAGINATION --> &bull; <a href="#" onclick="jumpto(); return false;" title="{L_JUMP_TO_PAGE}">{PAGE_NUMBER}</a> &bull; <span>{PAGINATION}</span><!-- ELSE --> &bull; {PAGE_NUMBER}<!-- ENDIF --><!-- ENDIF -->
 		</div>
