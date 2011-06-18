@@ -201,6 +201,7 @@ dl.details dd {
 
 .copyright {
 	color: #555555;
+	min-height: 90px;
 }
 
 .error {
