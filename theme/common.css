@@ -173,7 +173,6 @@ a#logo:hover {
 /* Site description and logo */
 #site-description {
 	clear:both;
-	display: block;
 }
 
 /* Round cornered boxes and backgrounds
@@ -627,4 +626,33 @@ ul.center li {
     text-align: center;
    list-style: none;
    font-size: 1.1em;
+}
+
+.donate {
+        float: right;
+	display: block;
+	margin-top: -115px;
+}
+
+.suscribe {
+        float: right;
+	display: block;
+	margin-top: -50px;
+}
+
+.suscribe .suscribe-select {
+        border-radius: 10px;
+        padding: 3px;
+}
+
+#site-description .navbar {
+}
+
+#site-description {
+        height: 135px;
+}
+
+#site-description #logo img, #site-description #logo a {
+	z-index: 1;
+	float: left;
 }
