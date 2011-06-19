@@ -1,0 +1,1 @@
+Uncomment the line, <!-- INCLUDE mods/reimg_content.html --> above </head> in template/overall_header.html if you do not have the reimg module installed.
