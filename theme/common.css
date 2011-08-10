@@ -103,7 +103,7 @@ p.right {
 #wrap {
 	padding: 10px 10px;
 	min-width: 960px;
-	width: 960px;
+	width: 80%;
 	margin: 0 auto;
 	background-color: #FFFFFF;
 	border-left: 3px solid #000000;
@@ -128,7 +128,24 @@ p.right {
 	margin-top: 20px;
 }
 
-#logo {
+#top_logo {
+	width: 100%;
+	background-repeat: repeat-x;
+	height: 135px;
+	background-image: url('{T_THEME_PATH}/images/site_logo_middle.png');
+}
+
+#logo_left {
+	float:left;
+}
+
+.logo_left {
+	float: left;
+}
+
+.logo_right {
+	float:right;
+	width: 20px;
 }
 
 a#logo:hover {
@@ -182,7 +199,8 @@ a#logo:hover {
 	padding: 0 10px;
 	float: left;
 	clear: both;
-	width: 940px;
+	min-width: 940px;
+	width: 98%;
 	margin-bottom: 5px;
 }
 
@@ -300,8 +318,8 @@ ul.linklist li {
 	float: left;
 	width: auto;
 	margin-right: 5px;
-	font-size: 1.1em;
-	line-height: 2.2em;
+	margin-bottom: 5px;
+	font-size: 1em;
 }
 
 ul.linklist li.rightside, p.rightside {
@@ -471,7 +489,6 @@ dl.details dd {
 	height: 1%; /* IE tweak (holly hack) */
 	width: auto;
 	text-align: left;
-	margin-top: 5px;
 	float: right;
 }
 
