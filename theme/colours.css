@@ -332,6 +332,11 @@ a.top {
 	background-image: url("{IMG_ICON_BACK_TOP_SRC}");
 }
 
+a.bottom {
+/*	background-image: url("{IMG_ICON_BACK_BOTTOM_SRC}");*/
+	background-image: url("/styles/osterock/imageset/icon_back_bottom.gif");
+}
+
 a.top2 {
 	background-image: url("{IMG_ICON_BACK_TOP_SRC}");
 }

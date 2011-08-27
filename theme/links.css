@@ -136,9 +136,11 @@ a.topictitle:active {
 
 /* Back to top of page */
 .back2top {
-	clear: both;
-	height: 11px;
-	text-align: right;
+	float: right;
+}
+
+.back2bottom {
+	float: right;
 }
 
 a.top {
@@ -146,12 +148,29 @@ a.top {
 	text-decoration: none;
 	width: {IMG_ICON_BACK_TOP_WIDTH}px;
 	height: {IMG_ICON_BACK_TOP_HEIGHT}px;
-	display: block;
-	float: right;
 	overflow: hidden;
+	display: block;
 	letter-spacing: 1000px;
 	text-indent: 11px;
 }
+
+#backbuttons {
+	clear:both;
+	height: 11px;
+	float: right;
+}
+
+a.bottom {
+        background: none no-repeat top left;
+        text-decoration: none;
+        width: {IMG_ICON_BACK_TOP_WIDTH}px;
+        height: {IMG_ICON_BACK_TOP_HEIGHT}px;
+        overflow: hidden;
+	display: block;
+        letter-spacing: 1000px;
+        text-indent: 11px;
+}
+
 
 a.top2 {
 	background: none no-repeat 0 50%;
